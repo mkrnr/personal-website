@@ -9,7 +9,7 @@ github_username: mkrnr
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: personal-website-theme
 
 exclude:
   - Gemfile

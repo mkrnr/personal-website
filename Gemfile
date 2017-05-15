@@ -3,7 +3,7 @@ ruby RUBY_VERSION
 
 gem "jekyll", "3.4.3"
 
-gem "minima", "~> 2.0"
+gem "personal-website-theme", "~> 2.1.1"
 
 #group :jekyll_plugins do
 #
