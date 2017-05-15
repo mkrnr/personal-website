@@ -1,0 +1,16 @@
+title: Martin Körner
+email: info@mkoerner.de
+description: >
+  My personal website.
+baseurl: "" 
+url: https://mkoerner.de
+twitter_username: mkrnr
+github_username: mkrnr
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
