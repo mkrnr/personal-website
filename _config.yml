@@ -2,10 +2,15 @@ title: Martin Körner
 email: info@mkoerner.de
 description: >
   My personal website.
-baseurl: "" 
+baseurl: ""
 url: https://mkoerner.de
 twitter_username: mkrnr
 github_username: mkrnr
+
+header_pages:
+ - index.md
+ - cv/cv.md
+ - about.md
 
 # Build settings
 markdown: kramdown
