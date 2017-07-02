@@ -6,5 +6,6 @@ title: Home
 layout: home
 ---
 
-<h2>News</h2>
+## News
 
+2017-07-02 >> New website online
