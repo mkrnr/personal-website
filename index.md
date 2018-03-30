@@ -1,11 +1,9 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
 layout: home
 ---
 
-## News
+<h2 class="post-list-heading">News</h2>
 
+2018-01-03 >> Moved to Düsseldorf, Germany  
 2017-07-02 >> New website online

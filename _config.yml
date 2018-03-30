@@ -3,9 +3,15 @@ email: info@mkoerner.de
 description: >
   My personal website.
 baseurl: ""
-url: https://mkoerner.de
+url: "https://mkoerner.de"
+media_url: "https://media.mkoerner.de"
 twitter_username: mkrnr
 github_username: mkrnr
+
+disqus:
+  shortname: mkrnr
+
+permalink: /:title/
 
 header_pages:
  - index.md
@@ -15,6 +21,8 @@ header_pages:
 # Build settings
 markdown: kramdown
 theme: personal-website-theme
+gems:
+  - jekyll-feed
 
 exclude:
   - Gemfile
