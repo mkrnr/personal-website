@@ -5,8 +5,17 @@ description: >
 baseurl: ""
 url: "https://mkoerner.de"
 media_url: "https://media.mkoerner.de"
-twitter_username: mkrnr
-github_username: mkrnr
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: mkrnr
+    github: mkrnr
+    rss: rss
 
 disqus:
   shortname: mkrnr
@@ -23,7 +32,5 @@ markdown: kramdown
 theme: personal-website-theme
 gems:
   - jekyll-feed
+  - jekyll-seo-tag 
 
-exclude:
-  - Gemfile
-  - Gemfile.lock

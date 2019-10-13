@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "~> 3.5"
+gem "jekyll", ">= 3.6.3"
 
-gem "personal-website-theme", "~> 2.4.1"
+gem "personal-website-theme", "~> 2.5.0"
 
 #group :jekyll_plugins do
 #
